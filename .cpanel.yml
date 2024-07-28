@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/waha34/public_html/wh.360waha.com
+    - /bin/cp * $DEPLOYPATH
